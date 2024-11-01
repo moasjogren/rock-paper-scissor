@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JavaScript Sten, sax, påse</title>
+  </head>
+  <body>
+    <div id="gamecontainer" class="gamecontainer">
+      <img class="logo" src="./img/rock-paper-scissors.png" alt="logo" />
+      <h1>STEN! SAX! PÅSE!</h1>
+      <p class="instruktion">välj ditt vapen:</p>
+
+      <div id="spelaralternativ" class="spelaralternativ">
+        <div id="sten" class="alternativ">
+          <img src="./img/coal.png" alt="sten" />
+        </div>
+        <div id="sax" class="alternativ">
+          <img src="./img/scissors.png" alt="sax" />
+        </div>
+        <div id="påse" class="alternativ">
+          <img src="./img/paper-bag.png" alt="påse" />
+        </div>
+      </div>
+
+      <div id="poäng" class="poäng">
+        <div id="spelare" class="räknare"><p>SPELARE</p></div>
+        <span id="spelare-poäng">0</span>:<span id="dator-poäng">0</span>
+        <div id="dator" class="räknare"><p>DATOR</p></div>
+      </div>
+      <div class="resultat">...</div>
+    </div>
+    <footer>
+      <p>
+        Illustrationer av
+        <a href="https://www.flaticon.com/authors/freepik">Freepik</a>. Tack
+        Freepik!
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #88d498;
+  font-family: "VT323";
+}
+
+.gamecontainer {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 0.45rem solid black;
+  padding: 3rem;
+  margin-top: 1rem;
+  min-height: 700px;
+}
+
+.logo {
+  height: 200px;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.instruktion {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.spelaralternativ {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.spelaralternativ img {
+  width: 65px;
+}
+
+.poäng {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.resultat {
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
